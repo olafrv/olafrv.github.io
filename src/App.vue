@@ -18,10 +18,8 @@
     </TopBar>
     <LeftBar />
     <v-main>
-      <v-container>
-        <router-view />
-      </v-container>
-      <Footer />
+      <router-view />
     </v-main>
-  </v-app>
+    <Footer />
+</v-app>
 </template>

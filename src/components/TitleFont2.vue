@@ -1,5 +1,3 @@
-// https://codepen.io/ykadosh/pen/zYNxVKr - https://codepen.io/ykadosh
-
 <template>
   <v-container>
     <v-spacer></v-spacer>
@@ -8,6 +6,8 @@
 </template>
 
 <style>
+/* https://codepen.io/ykadosh/pen/zYNxVKr - https://codepen.io/ykadosh */
+
 @import url('https://fonts.googleapis.com/css2?family=Mr+Dafoe&display=swap');
 
 div#a33 {

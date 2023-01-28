@@ -6,6 +6,7 @@
       indeterminate
     ></v-progress-circular>
 </template>
+
 <script>
 window.open(
   'https://twitter.com/olafrv',
