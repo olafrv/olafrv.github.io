@@ -1,6 +1,6 @@
 <template>
     <v-footer>
-        <v-row justify="right">
+        <v-row>
             <v-spacer></v-spacer>
             Made with:&nbsp;
             <a href="https://vitejs.dev/" target='_blank'>

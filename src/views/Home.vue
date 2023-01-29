@@ -1,6 +1,12 @@
 <template>
-    <a href='https://my.spline.design/olafufo-7bf0944e55dd61670e6a4dd5e13184f0/'
-        target='_blank'>
-        <v-img src="src/assets/ovni.png"></v-img>
-    </a>
+    <canvas ref="canvas"></canvas>
 </template>
+<script setup>
+    import { Application } from '@splinetool/runtime';
+    import { ref , onMounted } from 'vue'
+    const canvas = ref(null)
+    onMounted(()=>{
+        const app = new Application(canvas.value);
+        app.load('https://prod.spline.design/AcbEQtObst6voXMZ/scene.splinecode?t=' + Math.random());
+    })
+</script>
