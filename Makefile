@@ -1,4 +1,4 @@
-nodejs: 
+install: 
 	# https://github.com/nodejs/help/wiki/Installation
 	# sudo apt-get -y install gcc g++ make
 	sudo apt -y remove nodejs yarn libnode-dev libnode72
@@ -8,3 +8,4 @@ nodejs:
 	sudo apt-get -y update
 	sudo apt-get -y install nodejs
 	node -v; npm version; npx -v
+

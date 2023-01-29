@@ -1,28 +1,44 @@
-import { createRouter, createWebHistory } from 'vue-router'
-import Home from '@/views/Home.vue'
+import { createRouter, createWebHistory } from "vue-router";
+import External from "@/components/External.vue";
+
+function openWindow(url) {
+  window.open(url, "_blank");
+}
 
 export default createRouter({
   history: createWebHistory(),
   routes: [
     {
-      path: '/',
-      component: Home,
+      path: "/",
+      component: () => import("@/views/Home.vue"),
     },
     {
-      path: '/soccer',
-      component: () => import('@/views/Soccer.vue'),
+      path: "/soccer",
+      beforeEnter() {
+        openWindow("http://olafrv.com/futbol");
+      },
+      component: External,
     },
     {
-      path: '/projects',
-      component: () => import('@/views/Projects.vue'),
+      path: "/projects",
+      beforeEnter() {
+        openWindow("https://github.com/olafrv");
+      },
+      component: External,
     },
     {
-      path: '/trending',
-      component: () => import('@/views/Trending.vue'),
+      path: "/trending",
+      beforeEnter() {
+        openWindow("https://twitter.com/olafrv");
+      },
+      component: External,
     },
     {
-      path: '/resume',
-      component: () => import('@/views/Resume.vue'),
+      path: "/resume",
+      beforeEnter() {
+        openWindow("https://www.linkedin.com/in/olafrv/");
+      },
+      component: External,
     },
   ],
-})
+});

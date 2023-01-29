@@ -8,6 +8,12 @@ This template should help get you started developing with Vue 3 in Vite. The tem
 
 ## References
 
+
+* https://eslint.org/
+* https://prettier.io/
+* https://github.com/prettier/eslint-config-prettier
+* https://github.com/prettier/prettier-vscode
+
 https://vuejs.org/guide/quick-start.html
 https://vuetifyjs.com/en/getting-started/installation/
 https://router.vuejs.org/guide/#javascript

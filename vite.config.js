@@ -1,7 +1,7 @@
 // Vite
-import { fileURLToPath } from 'url'
 import { defineConfig } from 'vite'
 import vue from '@vitejs/plugin-vue'
+import { fileURLToPath } from 'url'
 
 // Vite Vuetify Plugin
 // https://www.npmjs.com/package/vite-plugin-vuetify
