@@ -2,7 +2,7 @@
   import { ref } from 'vue'
   import TopBar from './components/TopBar.vue'
   import LeftBar from './components/LeftBar.vue'
-  import Footer from './components/Footer.vue'
+  import PageFooter from './components/PageFooter.vue'
 
   const theme = ref('dark')
   function setTheme() {
@@ -17,7 +17,7 @@
     </TopBar>
     <v-main>
       <router-view />
-      <Footer/>  
+      <PageFooter/>  
     </v-main>
   </v-app>
 </template>

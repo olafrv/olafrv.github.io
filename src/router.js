@@ -1,5 +1,5 @@
 import { createRouter, createWebHistory } from "vue-router";
-import External from "@/components/External.vue";
+import ExternalMessage from "@/components/ExternalMessage.vue";
 
 function openWindow(url) {
   window.open(url, "_blank");
@@ -17,28 +17,28 @@ export default createRouter({
       beforeEnter() {
         openWindow("http://olafrv.com/futbol");
       },
-      component: External,
+      component: ExternalMessage,
     },
     {
       path: "/projects",
       beforeEnter() {
         openWindow("https://github.com/olafrv");
       },
-      component: External,
+      component: ExternalMessage,
     },
     {
       path: "/trending",
       beforeEnter() {
         openWindow("https://twitter.com/olafrv");
       },
-      component: External,
+      component: ExternalMessage,
     },
     {
       path: "/resume",
       beforeEnter() {
         openWindow("https://www.linkedin.com/in/olafrv/");
       },
-      component: External,
+      component: ExternalMessage,
     },
   ],
 });

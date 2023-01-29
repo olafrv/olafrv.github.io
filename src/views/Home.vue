@@ -1,6 +1,6 @@
 <template>
     <v-container class="d-lg-flex align-center justify-center">
-        <v-img cover src="/ovni.png" />
+        <v-img cover src="/img/ovni.png" />
     </v-container>
 <!--
     <canvas ref="canvas"></canvas>
