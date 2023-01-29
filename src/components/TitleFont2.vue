@@ -12,14 +12,12 @@
 
 div#a33 {
   position: absolute;
-  margin-top: -37px;
+  margin-top: -35px;
   margin-trim: 50px;
   font-family: 'Mr Dafoe';
   font-size: 2.5em;
   color: white;
   text-shadow: 0 0 0.05em #fff, 0 0 0.2em #fe05e1, 0 0 0.3em #fe05e1;
-  transform: rotate(-7deg);
+  transform: rotate(0deg);
 }
-
-
 </style>
