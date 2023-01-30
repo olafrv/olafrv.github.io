@@ -1,0 +1,1 @@
+import{o as e,c as a,w as t,V as c,a as r,b as s}from"./index-e4afe20f.js";const l={__name:"HomePage",setup(o){return(n,_)=>(e(),a(c,{class:"d-lg-flex align-center justify-center"},{default:t(()=>[r(s,{cover:"",src:"/img/ovni.png"})]),_:1}))}};export{l as default};
