@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "@splinetool/runtime": "^0.9.202",
+    "pinia": "^2.0.29",
     "vite-plugin-vuetify": "^1.0.1",
     "vue": "^3.2.45",
     "vue-router": "^4.1.6",

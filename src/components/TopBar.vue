@@ -7,22 +7,15 @@
   </v-app-bar>
 </template>
 
-<script>
-export default {
-  data() {
-    return {
-      icon: "mdi-weather-sunny",
-    };
-  },
-  props: {
-    theme: "light",
-  },
-  methods: {
-    themeChanged() {
-      this.icon =
-        this.theme === "light" ? "mdi-weather-sunny" : "mdi-weather-night";
-      this.$emit("themeChanged");
-    },
-  },
-};
+<script setup>
+import { ref } from 'vue';
+
+const props = defineProps(["theme"]);
+const emit = defineEmits(["themeChanged"]);
+const icon = ref("mdi-weather-sunny");
+function themeChanged() {
+  icon.value =
+    props.theme === 'light' ? 'mdi-weather-sunny' : 'mdi-weather-night';
+  emit('themeChanged');
+}
 </script>
