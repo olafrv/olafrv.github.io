@@ -1,12 +1,3 @@
-<template>
-  <v-app-bar>
-    <v-spacer></v-spacer>
-    <span style="padding: 10px">
-      <v-icon @click="themeChanged()">{{ icon }}</v-icon>
-    </span>
-  </v-app-bar>
-</template>
-
 <script setup>
 import { ref } from 'vue';
 
@@ -19,3 +10,12 @@ function themeChanged() {
   emit('themeChanged');
 }
 </script>
+
+<template>
+  <v-app-bar>
+    <v-spacer></v-spacer>
+    <span style="padding: 10px">
+      <v-icon @click="themeChanged()">{{ icon }}</v-icon>
+    </span>
+  </v-app-bar>
+</template>

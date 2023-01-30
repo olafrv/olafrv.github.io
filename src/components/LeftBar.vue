@@ -1,3 +1,33 @@
+<script setup>
+import { ref } from 'vue';
+import { useRouter } from 'vue-router';
+import { useSnackStore } from '@/stores/SnackBar'
+ 
+const drawer = ref(true);
+const rail = ref(true);
+const items = ref([
+  { title: 'Home', icon: 'mdi-home-city', path: '/' },
+  { title: 'Quiniela', icon: 'mdi-soccer', path: 'http://www.olafrv.com' },
+  { title: 'Projects', icon: 'mdi-github', path: 'https://github.com/olafrv' },
+  { title: 'Trending', icon: 'mdi-repeat-variant', path: 'https://twitter.com/olafrv' },
+  { title: 'Resume', icon: 'mdi-linkedin', path: 'https://www.linkedin.com/in/olafrv' },
+]);
+const router = useRouter();
+const store = useSnackStore()
+const { setVisible, setText } = store
+
+function onClick(item) {
+  if (item.path.startsWith('http')){
+    setText("Opened new tab to: " + item.path)
+    setVisible(true)
+    window.open(item.path, '_blank')
+    return false
+  }else{
+    router.push({ path: item.path });
+  }
+}
+</script>
+
 <template>
   <v-navigation-drawer
     v-model="drawer"
@@ -37,33 +67,3 @@
     </v-list>
   </v-navigation-drawer>
 </template>
-
-<script setup>
-import { ref } from 'vue';
-import { useRouter } from 'vue-router';
-import { useSnackStore } from '@/stores/SnackBar'
- 
-const drawer = ref(true);
-const rail = ref(true);
-const items = ref([
-  { title: 'Home', icon: 'mdi-home-city', path: '/' },
-  { title: 'Quiniela', icon: 'mdi-soccer', path: 'http://www.olafrv.com' },
-  { title: 'Projects', icon: 'mdi-github', path: 'https://github.com/olafrv' },
-  { title: 'Trending', icon: 'mdi-repeat-variant', path: 'https://twitter.com/olafrv' },
-  { title: 'Resume', icon: 'mdi-linkedin', path: 'https://www.linkedin.com/in/olafrv' },
-]);
-const router = useRouter();
-const store = useSnackStore()
-const { setVisible, setText } = store
-
-function onClick(item) {
-  if (item.path.startsWith('http')){
-    setText("Opened new tab to: " + item.path)
-    setVisible(true)
-    window.open(item.path, '_blank')
-    return false
-  }else{
-    router.push({ path: item.path });
-  }
-}
-</script>

@@ -1,3 +1,19 @@
+<script setup>
+const year = new Date().getFullYear();
+</script>
+
+<style scoped>
+@import url("https://fonts.googleapis.com/css2?family=Mr+Dafoe&display=swap");
+
+span#a33 {
+  font-family: "Mr Dafoe";
+  font-size: 2.5em;
+  color: white;
+  text-shadow: 0 0 0.05em #fff, 0 0 0.2em #fe05e1, 0 0 0.3em #fe05e1;
+  transform: rotate(0deg);
+}
+</style>
+
 <template>
   <v-footer>
     <v-container>
@@ -23,19 +39,3 @@
     </v-container>
   </v-footer>
 </template>
-
-<script setup>
-const year = new Date().getFullYear();
-</script>
-
-<style scoped>
-@import url("https://fonts.googleapis.com/css2?family=Mr+Dafoe&display=swap");
-
-span#a33 {
-  font-family: "Mr Dafoe";
-  font-size: 2.5em;
-  color: white;
-  text-shadow: 0 0 0.05em #fff, 0 0 0.2em #fe05e1, 0 0 0.3em #fe05e1;
-  transform: rotate(0deg);
-}
-</style>

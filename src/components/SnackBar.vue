@@ -1,3 +1,10 @@
+<script setup>
+import { useSnackStore } from '@/stores/SnackBar'
+import { storeToRefs } from 'pinia'
+const store = useSnackStore()
+const { visible, text } = storeToRefs(store)
+</script>
+
 <template>
     <v-container>
         <v-snackbar
@@ -16,10 +23,3 @@
         </v-snackbar>
     </v-container>
 </template>
-
-<script setup>
-import { useSnackStore } from '@/stores/SnackBar'
-import { storeToRefs } from 'pinia'
-const store = useSnackStore()
-const { visible, text } = storeToRefs(store)
-</script>
