@@ -7,7 +7,7 @@ const drawer = ref(true);
 const rail = ref(true);
 const items = ref([
   { title: 'Home', icon: 'mdi-home-city', path: '/' },
-  { title: 'Quiniela', icon: 'mdi-soccer', path: 'http://www.olafrv.com' },
+  { title: 'Quiniela', icon: 'mdi-soccer', path: 'http://www.olafrv.com/futbol' },
   { title: 'Projects', icon: 'mdi-github', path: 'https://github.com/olafrv' },
   { title: 'Trending', icon: 'mdi-repeat-variant', path: 'https://twitter.com/olafrv' },
   { title: 'Resume', icon: 'mdi-linkedin', path: 'https://www.linkedin.com/in/olafrv' },
