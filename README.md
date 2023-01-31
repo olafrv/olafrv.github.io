@@ -2,9 +2,9 @@
 
 ![Node.js CI](https://github.com/olafrv/olafrv.github.io/actions/workflows/node.yml/badge.svg)
 
-Just my personal Website based VueJS reactive frontend framework and related software stack.
+Just my personal Website at https://www.olafrv.com/ based VueJS reactive frontend framework and related software stack.
 
-## Recommended IDE
+## Development
 
 First:
 
@@ -23,6 +23,10 @@ make install
 # Available npm run commands:
 npm run -l
 ```
+
+Third:
+
+Visit the preview at https://olafrv.github.io after commit.
 
 ## References
 
@@ -56,7 +60,7 @@ npm run -l
 * https://github.com/prettier/eslint-config-prettier
 * https://github.com/prettier/prettier-vscode
 
-## GitHub Pages & Actions
+### GitHub Pages & Actions
 
 > Don't forget GitHub Pages (Select branch) and Workflow (Add permissions)
 
