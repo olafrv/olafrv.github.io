@@ -4,7 +4,7 @@
 
 Just my personal Website based VueJS reactive frontend framework and related software stack.
 
-# Recommended IDE
+## Recommended IDE
 
 First:
 
@@ -24,36 +24,37 @@ make install
 npm run -l
 ```
 
-# References
-# VueJS
+## References
 
-* https://vuejs.org/guide/quick-start.html (Composition API)
-* https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup
-
-# Vite
+### Vite
 
 * https://vitejs.dev/config/
 * https://www.npmjs.com/package/vite-plugin-vuetify
 * https://vuejs.org/guide/essentials/component-basics.html#dynamic-components (Dynamic/Manual Import Edge Case)
 
-# ESLint & Prettier
+### VueJS
+
+* https://vuejs.org/guide/quick-start.html (Composition API)
+* https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup
+
+### Vuetify
+
+* https://vuetifyjs.com/en/getting-started/installation/
+* https://next.vuetifyjs.com/en/features/treeshaking/
+
+### Vue Router
+* https://router.vuejs.org/guide/#javascript
+
+### Material Design
+* https://m2.material.io/
+* https://pictogrammers.com/library/mdi/
+
+### ESLint & Prettier
 
 * https://eslint.org/
 * https://prettier.io/
 * https://github.com/prettier/eslint-config-prettier
 * https://github.com/prettier/prettier-vscode
-
-## Vuetify
-
-* https://vuetifyjs.com/en/getting-started/installation/
-* https://next.vuetifyjs.com/en/features/treeshaking/
-
-## Vue Router
-* https://router.vuejs.org/guide/#javascript
-
-## Material Design
-* https://m2.material.io/
-* https://pictogrammers.com/library/mdi/
 
 ## GitHub Pages & Actions
 
