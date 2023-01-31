@@ -1,13 +1,22 @@
-# Vue 3 + Vite
+# Olaf Reitmaier Veracierta
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+![Build and Deploy](https://github.com/olafrv/olafrv.github.io/actions/workflows/node.yml/badge.svg)
+
+Just my personal Website based VueJS and related technologies.
 
 ## Recommended IDE Setup
 
-- [VS Code](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+* [Visual Studio Code](https://code.visualstudio.com/).
+* [Vue Language Features (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+* [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
 
 ## References
 
+
+
+https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup
+
+* https://docs.github.com/en/actions/monitoring-and-troubleshooting-workflows/adding-a-workflow-status-badge
 
 * https://eslint.org/
 * https://prettier.io/
