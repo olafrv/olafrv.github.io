@@ -11,6 +11,7 @@ const items = ref([
   { title: 'Projects', icon: 'mdi-github', path: 'https://github.com/olafrv' },
   { title: 'Trending', icon: 'mdi-repeat-variant', path: 'https://twitter.com/olafrv' },
   { title: 'Resume', icon: 'mdi-linkedin', path: 'https://www.linkedin.com/in/olafrv' },
+  { title: 'Status', icon: 'mdi-trafic-light', path: 'https://status.olafrv.com/' },
 ]);
 const router = useRouter();
 const store = useSnackStore()
