@@ -2,7 +2,7 @@
 
 ![Node.js CI](https://github.com/olafrv/olafrv.github.io/actions/workflows/node.yml/badge.svg)
 
-Just my personal Website at https://www.olafrv.com/ based VueJS and related software stack.
+Just my personal Website at https://www.olafrv.com/ and its related software stack.
 
 ## Development
 
